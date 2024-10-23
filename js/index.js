@@ -18,7 +18,6 @@ let degree = document.querySelectorAll('.degree');
 let small = document.querySelectorAll('small');
 let text = document.querySelectorAll('.text');
 
-displayAll();
 search.addEventListener('input', async function(){
     displayAll(search.value.trim());
 }) 
